@@ -30,6 +30,7 @@
 		"express": "~2.5"
 	},
 	"scripts": {
+		"postinstall": "git submodule init && git submodule update",
 		"start": "node bin/server"
 	}
 }
