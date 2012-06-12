@@ -1,0 +1,13 @@
+.welcome-header {
+    font-size: 200%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.welcome-header h1 {
+    margin-bottom: 0;
+}
+
+.welcome-header p {
+    margin-top: 0;
+}
