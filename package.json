@@ -1,0 +1,35 @@
+{
+	"name": "cujo-boilerplate",
+	"version": "0.1.0",
+	"description": "Starter Kit for cujo.js apps",
+	"keywords": ["modules", "ioc", "promises"],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/briancavalier/cujo-boilerplate"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Brian Cavalier",
+			"web": "http://hovercraftstudios.com"
+		},
+		{
+			"name": "John Hann",
+			"web": "http://unscriptable.com"
+		}
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"express": "~2.5"
+	},
+	"scripts": {
+		"start": "node bin/server"
+	}
+}
