@@ -27,7 +27,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"express": "~2.5"
+		"express": ""
 	},
 	"scripts": {
 		"postinstall": "git submodule init && git submodule update",

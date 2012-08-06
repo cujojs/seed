@@ -9,7 +9,7 @@ path = process.env.PWD;
 host = '127.0.0.1';
 port = process.argv[2] || 8000;
 
-app = express.createServer();
+app = express();
 
 app.configure(function(){
     app.use(app.router);
