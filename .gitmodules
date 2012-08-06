@@ -7,12 +7,12 @@
 [submodule "lib/when"]
 	path = lib/when
 	url = https://github.com/cujojs/when
-[submodule "lib/aop"]
-	path = lib/aop
-	url = https://github.com/cujojs/aop
 [submodule "lib/cola"]
 	path = lib/cola
 	url = https://github.com/cujojs/cola
 [submodule "lib/poly"]
 	path = lib/poly
 	url = https://github.com/cujojs/poly
+[submodule "lib/meld"]
+	path = lib/meld
+	url = https://github.com/cujojs/meld
