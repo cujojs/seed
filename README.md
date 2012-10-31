@@ -1,14 +1,12 @@
-# cujo.js Boilerplate
+# cujo.js Quickstart
 
-## Starter kit for cujo.js development
+This is a starter kit for building [cujo.js](http://cujojs.com) apps.
 
-This is a starter for building [cujo.js](http://cujojs.com) apps.
+## How to get started
 
-## Quick start
-
-1. Clone the repo
-1. cd `repo-name`
-1. npm install
-1. ./bin/server
+1. `git clone https://github.com/cujojs/quickstart.git <project-name>`
+1. `cd <project-name>`
+1. `npm install`
+1. `npm start`
 1. Open http://localhost:8000 in your browser
-1. Start coding
+1. Open your editor and start coding
