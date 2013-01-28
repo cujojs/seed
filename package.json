@@ -27,11 +27,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"express": "",
+		"serv": "",
 		"bower": ""
 	},
 	"scripts": {
 		"postinstall": "bower install",
-		"start": "node bin/server"
+		"start": "serv"
 	}
 }
