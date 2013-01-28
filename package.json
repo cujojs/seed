@@ -27,10 +27,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"express": ""
+		"serv": "",
+		"bower": ""
 	},
 	"scripts": {
-		"postinstall": "git submodule init && git submodule update",
-		"start": "node bin/server"
+		"postinstall": "bower install",
+		"start": "serv"
 	}
 }
