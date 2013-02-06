@@ -12,7 +12,7 @@
 	"repositories": [
 		{
 			"type": "git",
-			"url": "https://github.com/briancavalier/cujo-boilerplate"
+			"url": "https://github.com/cujojs/quickstart"
 		}
 	],
 	"maintainers": [
