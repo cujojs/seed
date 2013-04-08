@@ -22,7 +22,8 @@
 			{ name: 'cola', location: 'lib/cola', main: 'cola' },
 			{ name: 'when', location: 'lib/when', main: 'when' },
 			{ name: 'meld', location: 'lib/meld', main: 'meld' },
-			{ name: 'poly', location: 'lib/poly' }
+			{ name: 'poly', location: 'lib/poly' },
+			{ name: 'yaml', location: 'lib', main: 'yaml' }
 		],
 		// Polyfill everything ES5-ish
 		preloads: ['poly/all']
@@ -30,6 +31,10 @@
 		//preloads: ['poly/array', 'poly/function', 'poly/json', 'poly/object', 'poly/string', 'poly/xhr']
 	};
 
-	curl(config, ['wire!app/main']);
+	curl.config(config);
+	curl(['wire', 'yaml!app/main.yml'], function(wire, spec) {
+		wire(spec).then(console.log, console.error);
+	});
+	// curl(config, ['wire!app/main']);
 
 })(curl);
