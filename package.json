@@ -1,8 +1,8 @@
 {
 	"name": "cujo-quickstart",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Starter Kit for cujo.js apps",
-	"keywords": ["cujo", "modules", "ioc", "promises", "aop"],
+	"keywords": ["cujo", "modules", "ioc", "promises", "aop", "rest"],
 	"licenses": [
 		{
 			"type": "MIT",
@@ -32,6 +32,6 @@
 	},
 	"scripts": {
 		"postinstall": "bower install",
-		"start": "serv"
+		"start": "serv --port 8000"
 	}
 }
