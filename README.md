@@ -1,10 +1,10 @@
-# cujo.js Quickstart
+# cujo.js seed
 
 This is a starter kit for building [cujo.js](http://cujojs.com) apps.
 
 ## How to get started
 
-1. `git clone https://github.com/cujojs/quickstart.git <project-name>`
+1. `git clone https://github.com/cujojs/seed.git <project-name>`
 1. `cd <project-name>`
 1. `npm install`
 1. `npm start`
