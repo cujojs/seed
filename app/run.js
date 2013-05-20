@@ -7,7 +7,9 @@
 		//},
 		packages: [
 			// Define application-level packages
-			{ name: 'welcome', location: 'app/welcome' },
+			{
+				name: 'welcome', location: 'app/welcome'
+			},
 
 			// Define a theme package, and configure it to always use the css module loader
 			// No need to use AMD 'css!' plugin to load things in this package, it will happen
@@ -24,6 +26,9 @@
 			{ name: 'meld', location: 'lib/meld', main: 'meld' },
 			{ name: 'poly', location: 'lib/poly' }
 		],
+		// Turn off i18n locale sniffing. Change this line if you want to
+		// test specific locales or try automatic locale-sniffing.
+		locale: false,
 		// Polyfill everything ES5-ish
 		preloads: ['poly/all']
 		// Or, select individual polyfills if you prefer
