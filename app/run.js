@@ -26,8 +26,8 @@
 			{ name: 'meld', location: 'lib/meld', main: 'meld' },
 			{ name: 'poly', location: 'lib/poly' }
 		],
-		// Turn off i18n locale sniffing. Change this line if you want to
-		// test specific locales or try automatic locale-sniffing.
+		// Turn off i18n locale sniffing. Change or remove this line if you want
+		// to test specific locales or try automatic locale-sniffing.
 		locale: false,
 		// Polyfill everything ES5-ish
 		preloads: ['poly/all']
@@ -43,11 +43,8 @@
 		// When using wire, the success callback is typically not needed since
 		// wire will compose and initialize the app from the main spec.
 		// However, this callback can be useful for executing startup tasks
-		// you don't want to put into a wire spec, such as this:
-		msg = 'Note! 404 errors for locale-specific i18n files are normal '
-			+ 'during development and can be ignored. '
-			+ 'These errors do not appear in internationalized apps that '
-			+ 'have been bundled for production.';
+		// you don't want inside of a wire spec, such as this:
+		msg = 'Looking good!';
 		console.log(msg);
 	}
 
