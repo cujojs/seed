@@ -4,7 +4,7 @@
 	"dependencies": {
 		"curl": "~0.7",
 		"wire": "~0.9",
-		"cola": "",
+		"cola": "~0.1",
 		"when": "~2",
 		"meld": "~1",
 		"poly": "~0.5",
