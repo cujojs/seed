@@ -1,0 +1,13 @@
+{
+	"name": "seed",
+	"version": "0.2.1",
+	"dependencies": {
+		"curl": "~0.7",
+		"wire": "~0.9",
+		"cola": "",
+		"when": "~2",
+		"meld": "~1",
+		"poly": "~0.5",
+		"rest": "~0.9"
+	}
+}
