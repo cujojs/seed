@@ -1,6 +1,6 @@
-# cujo.js seed
+# cujoJS seed
 
-This is a starter kit for building [cujo.js](http://cujojs.com) apps.
+This is a starter kit for building [cujoJS](http://cujojs.com) apps.
 
 ## How to get started
 
@@ -13,7 +13,7 @@ This is a starter kit for building [cujo.js](http://cujojs.com) apps.
 
 ## Using the built-in server with another port
 
-The included server, [serv](https://github.com/scothis/serv) is set to port 
+The included server, [serv](https://github.com/scothis/serv) is set to port
 8000 by default.  You can change it to 1337, for instance, with the following
 steps:
 
