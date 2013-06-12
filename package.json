@@ -28,11 +28,14 @@
 	"dependencies": {},
 	"devDependencies": {
 		"serv": "",
-		"bower": ""
+		"bower": "",
+		"cram": "~0.7"
 	},
 	"scripts": {
 		"postinstall": "bower install",
-		"start": "serv --port 8000"
+		"start": "serv --port 8000",
+		"cram": "cram index.html --include curl/plugin/domReady --output app/run.cram.js",
+		"minify": "curl --data-urlencode \"js_code@app/run.cram.js\" -d compilation_level=SIMPLE_OPTIMIZATIONS -d output_info=compiled_code -d output_format=text -d 'output_wrapper=(function(){%25output%25}).call(this);' http://closure-compiler.appspot.com/compile > app/run.min.js"
 	},
 	"ignore": [
 		"lib/"
