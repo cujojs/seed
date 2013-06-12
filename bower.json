@@ -3,7 +3,7 @@
 	"version": "0.2.3",
 	"dependencies": {
 		"curl": "~0.7",
-		"wire": "~0.9",
+		"wire": "~0.10",
 		"cola": "~0.1",
 		"when": "~2",
 		"meld": "~1",
