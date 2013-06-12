@@ -1,7 +1,7 @@
 (function(curl) {
 
 	var config = {
-		// baseUrl: '',
+		baseUrl: '',
 		//paths: {
 			// Configure paths here
 		//},
