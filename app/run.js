@@ -1,9 +1,10 @@
-(function(curl) {
+define(['curl'], function(curl) {
 
 	var config = {
+		main: 'wire!app/main',
 		// baseUrl: '',
 		//paths: {
-			// Configure paths here
+		// Configure paths here
 		//},
 		packages: [
 			// Define application-level packages
@@ -35,7 +36,7 @@
 		//preloads: ['poly/array', 'poly/function', 'poly/json', 'poly/object', 'poly/string', 'poly/xhr']
 	};
 
-	curl(config, ['wire!app/main']).then(success, fail);
+	curl(config).then(success, fail);
 
 	// Success! curl.js indicates that your app loaded successfully!
 	function success () {
@@ -74,5 +75,4 @@
 			throw msg;
 		}
 	}
-
-})(curl);
+});
