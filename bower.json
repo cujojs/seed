@@ -8,7 +8,8 @@
 		"when": "~2",
 		"meld": "~1",
 		"poly": "~0.5",
-		"rest": "~0.9"
+		"rest": "~0.9",
+		"msgs": "~0.3"
 	},
 	"ignore": [
 		"node_modules/"
