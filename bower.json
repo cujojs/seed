@@ -3,7 +3,7 @@
 	"version": "0.2.4",
 	"dependencies": {
 		"curl": "~0.8",
-		"wire": "~0.9",
+		"wire": "~0.10",
 		"cola": "~0.1",
 		"when": "~2",
 		"meld": "~1",
@@ -13,5 +13,6 @@
 	},
 	"ignore": [
 		"node_modules/"
+
 	]
 }
