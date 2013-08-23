@@ -1,6 +1,6 @@
 {
 	"name": "my-awesome-cujoJS-app",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "An application created with cujoJS! http://github.com/cujojs/seed.",
 	"keywords": ["modules", "ioc", "promises", "aop", "rest", "cujo", "cujojs"],
 	"licenses": [
