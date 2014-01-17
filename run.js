@@ -19,14 +19,14 @@
 			{ name: 'theme', location: 'theme', config: { moduleLoader: 'curl/plugin/css' } },
 
 			// Add third-party packages here
-			{ name: 'curl', location: 'lib/curl/src/curl' },
-			{ name: 'wire', location: 'lib/wire', main: 'wire' },
-			{ name: 'cola', location: 'lib/cola', main: 'cola' },
-			{ name: 'rest', location: 'lib/rest', main: 'rest' },
-			{ name: 'msgs', location: 'lib/msgs', main: 'msgs' },
-			{ name: 'when', location: 'lib/when', main: 'when' },
-			{ name: 'meld', location: 'lib/meld', main: 'meld' },
-			{ name: 'poly', location: 'lib/poly' }
+			{ name: 'curl', location: 'bower_components/curl/src/curl' },
+			{ name: 'wire', location: 'bower_components/wire', main: 'wire' },
+			{ name: 'cola', location: 'bower_components/cola', main: 'cola' },
+			{ name: 'rest', location: 'bower_components/rest', main: 'rest' },
+			{ name: 'msgs', location: 'bower_components/msgs', main: 'msgs' },
+			{ name: 'when', location: 'bower_components/when', main: 'when' },
+			{ name: 'meld', location: 'bower_components/meld', main: 'meld' },
+			{ name: 'poly', location: 'bower_components/poly' }
 		],
 		// Turn off i18n locale sniffing. Change or remove this line if you want
 		// to test specific locales or try automatic locale-sniffing.
