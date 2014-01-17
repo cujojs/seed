@@ -1,6 +1,6 @@
 {
 	"name": "my-awesome-cujoJS-app",
-	"version": "0.2.4",
+	"version": "0.3.0",
 	"dependencies": {
 		"curl": "~0.8",
 		"wire": "~0.10",
