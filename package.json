@@ -31,6 +31,6 @@
 	},
 	"scripts": {
 		"start": "serv --port 8000",
-		"cram": "cram index.html --include curl/plugin/domReady"
+		"cram": "cram index.html --include curl/plugin/domReady --include curl/plugin/locale"
 	}
 }
