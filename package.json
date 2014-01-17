@@ -1,6 +1,6 @@
 {
 	"name": "my-awesome-cujoJS-app",
-	"version": "0.2.4",
+	"version": "0.3.0",
 	"description": "An application created with cujoJS! http://github.com/cujojs/seed.",
 	"keywords": ["modules", "ioc", "promises", "aop", "rest", "cujo", "cujojs"],
 	"licenses": [
@@ -9,12 +9,10 @@
 			"url": "http://www.opensource.org/licenses/mit-license.php"
 		}
 	],
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/cujojs/quickstart"
-		}
-	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cujojs/quickstart"
+	},
 	"maintainers": [
 		{
 			"name": "Brian Cavalier",
@@ -28,13 +26,11 @@
 	"dependencies": {},
 	"devDependencies": {
 		"serv": "",
-		"bower": ""
+		"bower": "",
+		"cram": "~0.7"
 	},
 	"scripts": {
-		"postinstall": "bower install",
-		"start": "serv --port 8000"
-	},
-	"ignore": [
-		"lib/"
-	]
+		"start": "serv --port 8000",
+		"cram": "cram index.html --include curl/plugin/domReady"
+	}
 }

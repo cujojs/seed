@@ -46,7 +46,9 @@
 		// wire will compose and initialize the app from the main spec.
 		// However, this callback can be useful for executing startup tasks
 		// you don't want inside of a wire spec, such as this:
-		msg = 'Looking good!';
+		msg = 'Looking good! '
+			+ 'Did you get a 404 for bundle.js? '
+			+ 'Check README.md to find out why!';
 		console.log(msg);
 	}
 
