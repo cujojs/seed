@@ -16,7 +16,7 @@ define({
 	},
 
 	// Wire.js plugins
-	plugins: [
+	$plugins: [
 		{ module: 'wire/dom', classes: { init: 'loading' } },
 		{ module: 'wire/dom/render' }
 	]
