@@ -13,7 +13,7 @@
 
 			// Define a theme package, and configure it to always use the css module loader
 			// No need to use AMD 'css!' plugin to load things in this package, it will happen
-			// automatigally.
+			// automatically.
 			// WARNING: The moduleLoader config syntax will be changing in an upcoming version
 			// of curl.
 			{ name: 'theme', location: 'theme', config: { moduleLoader: 'curl/plugin/css' } },
