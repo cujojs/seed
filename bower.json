@@ -3,13 +3,13 @@
 	"version": "0.3.0",
 	"dependencies": {
 		"curl": "~0.8",
-		"wire": "~0.10",
+		"wire": ">=0.10.7 <0.11",
 		"cola": "~0.1",
-		"when": "~2",
+		"when": "~3",
 		"meld": "~1",
 		"poly": "~0.5",
 		"rest": "~1",
-		"msgs": "~0.3"
+		"msgs": "~0.4"
 	},
 	"ignore": [
 		"node_modules/"
