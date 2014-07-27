@@ -9,7 +9,7 @@
 		"meld": "~1",
 		"poly": "~0.5",
 		"rest": "~1",
-		"msgs": "~0.3"
+		"msgs": "~0.4"
 	},
 	"ignore": [
 		"node_modules/"
